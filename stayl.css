@@ -1,0 +1,480 @@
+@import url(./font.css);
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+
+}
+
+.header__inner{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+    width: 65%;
+    height: 100%;
+
+}
+
+.header__menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Look__video{
+    position: relative;
+    right: 2%;
+    width: 15%;
+    height: 65%;
+    background-color: chartreuse;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Look__video > a {
+    color:  white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+main {
+width: 100%;
+height: auto;
+
+}
+
+.main__intro{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/cesha.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.intro__inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 2em 5em;
+
+}
+
+.intro__heading{
+    font-family: 'Open sana', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+.intro__paragraph{
+    font-family: 'Mulish', sana-serif;
+    font-size: 20px;
+
+}
+
+.main__clip{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.clip__upper{
+    font-family: 'Open sana', sans-serif;
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.clip__upper__paragraph{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.clip__upper__paragraph > h2, .main__forest__paragraph > h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color:#5B6460;
+
+}
+
+.clip__upper__paragraph > p, .main__forest__paragraph > p {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+
+}
+
+.clip__upper__paragraph > a, .main__forest__paragraph > a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #5B6460;
+
+}
+
+.clip__upper__paragraph > a >span, .main__forest__paragraph > a > span {
+    content: "";
+    display: block;
+    background-color: #5B6460;
+    width: 150px;
+    height: 2px;
+
+}
+
+.clip__upper__img{
+    width: 45%;
+    height: 160%;
+    background-image: url(./images/cesha5.jpg);
+    margin-top: 5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.clip__lower {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.clip__lower > img {
+    width: 32.5%;
+    height: 130%;
+    margin-left: 3%;
+    margin-right: 3%;
+       
+}
+
+.main__forest {
+    background-color: #E9ECE0;
+    width: 110%;
+    height: 70vh;
+    display: flex;
+
+}
+
+.main__forest__img {
+    width: 30%;
+    height: 70%;
+    background-image: url(./images/Moscow-map.jpg);
+    margin-top: 5%;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    
+}
+
+.Forest__inner__img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Forest__inner__img  > div {
+    height: 30%;
+    width: 22%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 3em;
+    right: 1em;
+    border-radius: 50%;
+
+}
+
+.Forest__inner__img  > div > div {
+    height: 70%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.Forest__inner__img  > div > div > div{
+    height: 75%;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    font-family: 'DIN-Light';
+    text-align: center;
+
+}
+
+.main__forest__paragraph {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main__facilities {
+    width: 100%;
+    height: 70vh;
+    background-color: #5B6460;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    font-family: 'Open sana', sans-serif;
+
+}
+
+.main__facilities > h2 {
+    font-weight: 300;
+    font-size: 40px;
+
+}
+
+.main__facilities__inner {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main__facilities__inner > div {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.main__about__us {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+
+}
+
+.about__us__left{
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/cesha13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.about__us__right {
+    width: 50%;
+    height: 100%;
+    background-image: url(./images/cesha12.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.more__about__us {
+    position: absolute;
+    width: 9.3%;
+    height: 30%;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 15%);
+    left: calc(50% - 4.65%);
+  
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer__inner__top {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.footer__inner__top > p {
+    font-family: 'Open sana', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.footer__inner__top > ul {
+    list-style: none;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__inner__top > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "DIN-Light";
+    font-weight: 100;
+
+}
+
+.footer__inner__center {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.footer__inner__form {
+    width: 30%;
+    height: 60%;
+
+}
+
+.footer__inner__form > form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+
+}
+
+.footer__inner__form > form > input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open sana', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-left: .1em;
+
+}
+
+.footer__inner__form > form > input[type="text"]::placeholder {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open sana', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-left: .1em;
+
+}
+
+.footer__inner__form > form > input[type="button"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+
+}
+
+.footer__inner__form > p {
+    font-family: 'Open sana', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+
+}
+
+.fotter__list__pay {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    align-self: flex-start;
+
+}
